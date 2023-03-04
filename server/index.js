@@ -12,14 +12,14 @@ const app = express();
 
 dotenv.config();
 app.use(cors({
-    origin: ["https://airbnb-urq4.onrender.com"],
+    origin: ["https://airbnb-app-6tc5.onrender.com"],
     // origin: 'http://localhost:3000',
     credentials: true,
 }));
 app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
-    res.setHeader('Access-Control-Allow-Origin', 'https://airbnb-urq4.onrender.com');
+    res.setHeader('Access-Control-Allow-Origin', 'https://airbnb-app-6tc5.onrender.com');
     // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
 
     // Request methods you wish to allow
