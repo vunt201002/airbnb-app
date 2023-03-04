@@ -1,4 +1,4 @@
-export const host = "https://airbnb-api-tucp.onrender.com";
+export const host = "https://airbnb-app-api.onrender.com";
 // export const host = 'http://localhost:9000'
 
 export const registerRoute = `${host}/v1/user/register`;
